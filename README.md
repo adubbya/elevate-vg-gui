@@ -13,7 +13,7 @@
 - [Naming Schemes]
 	- [Software (games)](#software-games)
 	- [Launchers (emulators, steam, etc)](#launchers-emulators-steam-etc)
-- [FAQ](#fafq)
+- [FAQ](#faqq)
 - [Releases Notes](#releases-notes)
 - [Contributors](#contributors)
 - [License](#license)
