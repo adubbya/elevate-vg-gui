@@ -4,10 +4,10 @@
 
 This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
 
-## TOC
+## Table of Contents
 
-- (Install)[#install]
-- (Supported Launchers)[#Supported Launchers]
+- [Install](#install)
+- [Supported Launchers][#supported-launchers]
 
 ## Supported Launchers
 
