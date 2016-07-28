@@ -42,8 +42,12 @@ Currently, Ascent adheres to a strict directory layout to simplify development d
 
 ### Ascent folder
 
-* <ascent directory>
-	* \software: Game platform folders (created on init)
+* <root>: *ex: C:\ascent*
+	* \software: Place game software (roms, executables, etc) here. See [file naming schemes](#)
     * \utilities: A few utility applications to help with launching
+    * \media: Screenshots and other imagery. See [Media file naming schemes](#)
+    * \firmware: Platform BIOS and other firmware files.
+    * \launchers: Emulators and other software launchers. See [Launcher file naming schemes](#)
+    
 
 #### License [MIT](LICENSE.md)
