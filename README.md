@@ -56,6 +56,8 @@
 - TI-83 Calculator
 - Wonderswan and Wonderswan Color
 - Apple II
+- [Zelda Classic](http://www.zeldaclassic.com/)
+- Steam
 
 [Back to top](#table-of-contents)
 
@@ -91,7 +93,7 @@ Currently, Ascent adheres to a strict directory layout to simplify development d
 
 ### Ascent folder
 
-* ascent-dir: **ex: C:\ascent**
+* \<ascent-dir\>: Ascent's root directory **ex: C:\ascent**
 	* \software: Game software (roms, exe, etc). See [software naming schemes](#)
     * \utilities: A few utility applications to help with launching
     * \media: Screenshots and other imagery. See [media naming schemes](#)
