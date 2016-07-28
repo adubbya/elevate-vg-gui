@@ -35,8 +35,8 @@ npm install
 
 ## Setup 
 
-You will need to set a root folder where Ascent will look for **games**, **launchers**, **images**, etc. 
-For example: *C:\ascent*
+You will need to set a root folder where Ascent will look for [**games**](#software-games), [**launchers**](#launchers-emulators-steam-etc), [**images**](#media-screenshots-etc) etc. 
+
 From your command line:
 
 ```bash
@@ -44,9 +44,9 @@ From your command line:
 npm run setup
 ```
 
-Currently, Ascent adheres to a strict directory layout to simplify development during alpha stages. Expect this to be more flexible in the future.
-
 ### Ascent folder
+
+Currently, Ascent adheres to a strict directory layout to simplify development during alpha stages. Expect this to be more flexible in the future.
 
 * \<ascent-dir\>: Ascent's root directory **ex: C:\ascent**
 	* \software: Game software (roms, exe, etc). See [software naming schemes](#)
