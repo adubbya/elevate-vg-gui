@@ -134,7 +134,7 @@ Launchers are the applications that let you run games that cant be executed dire
 
 Directly under the launchers directory should place launchers with the folowing folder naming scheme:
 
-<launcherName>\\<release-os-arch>
+\<launcherName\>\<release-os-arch\>
 
 Example:
 
