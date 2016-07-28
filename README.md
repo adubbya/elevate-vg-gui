@@ -43,11 +43,27 @@ Currently, Ascent adheres to a strict directory layout to simplify development d
 ### Ascent folder
 
 * <root>: *ex: C:\ascent*
-	* \software: Place game software (roms, executables, etc) here. See [file naming schemes](#)
+	* \software: Game software (roms, exe, etc). See [software naming schemes](#)
     * \utilities: A few utility applications to help with launching
-    * \media: Screenshots and other imagery. See [Media file naming schemes](#)
+    * \media: Screenshots and other imagery. See [media naming schemes](#)
     * \firmware: Platform BIOS and other firmware files.
-    * \launchers: Emulators and other software launchers. See [Launcher file naming schemes](#)
+    * \launchers: Emulators and other software launchers. See [launcher naming schemes](#)
     
+## Naming Schemes
+
+### Software (games)
+
+> Future releases will be less strict with softwre location
+
+The software directory contains subfolders with the appropriate is where you can place your game files. 
+
+* <root>\software
+	* atari-2600
+    * flash
+    * nintendo-entertainment-system-nes
+	* steam-win
+    * win
+    * zelda-classic
+    * ...
 
 #### License [MIT](LICENSE.md)
