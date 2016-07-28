@@ -55,7 +55,7 @@ Currently, Ascent adheres to a strict directory layout to simplify development d
 
 > Future releases will be less strict with softwre location
 
-The software directory contains subfolders with the appropriate platform name.
+The software directory contains subfolders with the appropriate platform name (created during initial setup). *Games not placed in the appropriate platform subfolder will be ignored*
 
 * <root>\software
 	* atari-2600
@@ -66,4 +66,9 @@ The software directory contains subfolders with the appropriate platform name.
     * zelda-classic
     * ...
 
+* <root>\software
+	* \nintendo-entertainment-system-nes
+		* super mario bros 3.nes
+		* Kirby s Adventure (U) (PRG 1) [!].nes
+        
 #### License [MIT](LICENSE.md)
