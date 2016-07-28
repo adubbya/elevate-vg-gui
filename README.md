@@ -53,7 +53,7 @@ Currently, Ascent adheres to a strict directory layout to simplify development d
 
 ### Software (games)
 
-> Future releases will be less strict with softwre location
+> Future releases will be less strict with software location
 
 The software directory contains subfolders with the appropriate platform name (created during initial setup). *Games not placed in the appropriate platform subfolder will be ignored*
 
