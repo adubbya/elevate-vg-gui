@@ -81,6 +81,8 @@ Game software can be named how ever you like, just make sure the appropriate ext
 
 Launchers are the applications that let you run games that cant be executed directly wether it be DRM or emulation.
 
+> BizHawk launcher is downloaded and installed during setup
+
 [List of supported launchers](#)
 
 Directly under the launchers directory should place launchers with the folowing folder naming scheme:
@@ -92,9 +94,16 @@ Example:
 * ascent-dir\launchers
 	* \BizHawk
     	* \1.11.6-win-x86
+    	* \0.9.22-win-x86
 
 Some games work better (or worse) on particular launcher releases im looking at you [https://dolphin-emu.org/](dolphin)
 
+If you dont care/want to deal with release directories just name it **latest**
 
+Example:
+
+* ascent-dir\launchers
+	* \BizHawk
+    	* \latest
         
 #### License [MIT](LICENSE.md)
