@@ -68,9 +68,9 @@ The software directory contains subfolders with the appropriate platform name (c
     
 Game software (roms, executables, etc) can be placed in its appropriate platform directory.
 
-* <root>\software
-	* \nintendo-entertainment-system-nes
-		* super mario bros 3.nes
-		* Kirby s Adventure (U) (PRG 1) [!].nes
+* ascent-dir\software\nintendo-entertainment-system-nes
+	* super mario bros 3.nes
+	* Kirby s Adventure (U) (PRG 1) [!].nes
+    * ...
         
 #### License [MIT](LICENSE.md)
