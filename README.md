@@ -35,8 +35,6 @@ npm install
 
 ## Setup 
 
-You will need to set a root folder where Ascent will look for [**games**](#software-games), [**launchers**](#launchers-emulators-steam-etc), [**images**](#media-screenshots-etc) etc. 
-
 From your command line:
 
 ```bash
@@ -46,14 +44,16 @@ npm run setup
 
 ### Ascent folder
 
+You will need to set a root folder where Ascent will look for [**games**](#software-games), [**launchers**](#launchers-emulators-steam-etc), [**images**](#media-screenshots-etc) etc. 
+
 Currently, Ascent adheres to a strict directory layout to simplify development during alpha stages. Expect this to be more flexible in the future.
 
 * \<ascent-dir\>: Ascent's root directory **ex: C:\ascent**
 	* \software: Game software (roms, exe, etc). See [software naming schemes](#)
-    * \utilities: A few utility applications to help with launching
+    * \launchers: Emulators and other software launchers. See [launcher naming schemes](#)
     * \media: Screenshots and other imagery. See [media naming schemes](#)
     * \firmware: Platform BIOS and other firmware files.
-    * \launchers: Emulators and other software launchers. See [launcher naming schemes](#)
+    * \utilities: A few utility applications to help with launching
 
 [Back to top](#table-of-contents)
 
@@ -77,7 +77,6 @@ Currently, Ascent adheres to a strict directory layout to simplify development d
 
 - [Zelda Classic](http://www.zeldaclassic.com/)
 - [Steam](htp://steampowered.com)
-
 
 - Nintendo Entertainment System / Famicom / Famicom Disk System (NES/FDS)
 - Super Nintendo (SNES)
