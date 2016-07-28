@@ -102,7 +102,7 @@ Currently, Ascent adheres to a strict directory layout to simplify development d
 
 The software directory contains subfolders with the appropriate platform name (created during initial setup). *Games not placed in the appropriate platform subfolder will be ignored*
 
-* ascent-dir\software
+* \<ascent-dir\>\software
 	* atari-2600
     * flash
     * nintendo-entertainment-system-nes
@@ -113,7 +113,7 @@ The software directory contains subfolders with the appropriate platform name (c
     
 Game software (roms, executables, etc) can be placed in its appropriate platform directory.
 
-* ascent-dir\software\nintendo-entertainment-system-nes
+* \<ascent-dir\>\software\nintendo-entertainment-system-nes
 	* super mario bros 3.nes
 	* Kirby s Adventure (U) (PRG 1) [!].nes
     * ..
@@ -124,7 +124,7 @@ Game software can be named how ever you like, just make sure the appropriate ext
 
 ### Launchers (emulators, steam, etc)
 
-> Caveat: For now, Steam **must** be installed in the ascent-dir\software\steam-win directoy.
+> Caveat: For now, Steam **must** be installed in the \<ascent-dir\>\software\steam-win directoy.
 
 Launchers are the applications that let you run games that cant be executed directly wether it be DRM or emulation.
 
@@ -138,7 +138,7 @@ Directly under the launchers directory should place launchers with the folowing 
 
 Example:
 
-* ascent-dir\launchers
+* \<ascent-dir\>\launchers
 	* \BizHawk
     	* \1.11.6-win-x86
     	* \0.9.22-win-x86
@@ -149,7 +149,7 @@ If you dont care/want to deal with release directories just name it **latest**
 
 Example:
 
-* ascent-dir\launchers
+* \<ascent-dir\>\launchers
 	* \BizHawk
     	* \latest
         
