@@ -42,7 +42,7 @@ Currently, Ascent adheres to a strict directory layout to simplify development d
 
 ### Ascent folder
 
-* <root>: *ex: C:\ascent*
+* ascent-dir: **ex: C:\ascent**
 	* \software: Game software (roms, exe, etc). See [software naming schemes](#)
     * \utilities: A few utility applications to help with launching
     * \media: Screenshots and other imagery. See [media naming schemes](#)
@@ -57,7 +57,7 @@ Currently, Ascent adheres to a strict directory layout to simplify development d
 
 The software directory contains subfolders with the appropriate platform name (created during initial setup). *Games not placed in the appropriate platform subfolder will be ignored*
 
-* <root>\software
+* ascent-dir\software
 	* atari-2600
     * flash
     * nintendo-entertainment-system-nes
@@ -65,6 +65,8 @@ The software directory contains subfolders with the appropriate platform name (c
     * win
     * zelda-classic
     * ...
+    
+Game software (roms, executables, etc) can be placed in its appropriate platform directory.
 
 * <root>\software
 	* \nintendo-entertainment-system-nes
