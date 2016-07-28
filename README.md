@@ -2,12 +2,14 @@
 
 > A themable game launcher for PC
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
+
 
 ## Table of Contents
 
+
+- [Supported OS](#supported-os)
+- [Supported Launchers](#supported-launchers)
 - [Install](#install)
-- [Supported Launchers][#supported-launchers]
 - Naming Schemes
 	- Software (games)
 	- Launchers (emulators, steam, etc)
@@ -15,9 +17,37 @@ This is a minimal Electron application based on the [Quick Start Guide](http://e
 
 
 
+## Supported OS
+
+- Windows 7, 8, 10
+- ~~OS X~~: (Possible support in a future release)
+- ~~Linux~~: (Possible support in a future release)
+
 ## Supported Launchers
 
+* BizHawk: 
+* Zelda Classic
+* Steam
 
+## Supported Platforms
+
+- Nintendo Entertainment System / Famicom / Famicom Disk System (NES/FDS)
+- Super Nintendo (SNES)
+- Nintendo 64
+- Game Boy, Game Boy Color, and Super Game Boy
+- Game Boy Advance
+- Sony PlayStation
+- Sega Master System, Game Gear, and SG-1000
+- Sega Genesis / Sega-CD
+- Sega Saturn
+- PC-Engine (TurboGrafx-16) / CD-ROM & SuperGrafx
+- Atari 2600
+- Atari 7800
+- Atari Lynx
+- ColecoVision
+- TI-83 Calculator
+- Wonderswan and Wonderswan Color
+- Apple II
 
 ## Install
 
