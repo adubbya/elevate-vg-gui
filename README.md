@@ -2,8 +2,6 @@
 
 > A themable game launcher for PC
 
-
-
 ## Table of Contents
 
 - [Supported OS](#supported-os)
@@ -12,6 +10,7 @@
 - [Naming Schemes](#naming-schemes)
 	- [Software (games)](#software-games)
 	- [Launchers (emulators, steam, etc)](#launchers-emulators-steam-etc)
+	- [Media (screenshots, etc)](#media-screenshots-etc)
 - [FAQ](#faq)
 - [Releases Notes](#releases-notes)
 - [Contributors](#contributors)
@@ -30,13 +29,17 @@
 
 ## Supported Launchers
 
-* BizHawk
+* BizHawk (multi emu)
 * Zelda Classic
 * Steam
 
 [Back to top](#table-of-contents)
 
 ## Supported Platforms
+
+- [Zelda Classic](http://www.zeldaclassic.com/)
+- [Steam](htp://steampowered.com)
+
 
 - Nintendo Entertainment System / Famicom / Famicom Disk System (NES/FDS)
 - Super Nintendo (SNES)
@@ -55,8 +58,6 @@
 - TI-83 Calculator
 - Wonderswan and Wonderswan Color
 - Apple II
-- [Zelda Classic](http://www.zeldaclassic.com/)
-- Steam
 
 [Back to top](#table-of-contents)
 
@@ -159,8 +160,8 @@ Example:
     	- \latest
         	- EmuHawk.exe
             - ..
-            
 
+[Back to top](#table-of-contents)
 
 ### Media (screenshots, etc)
 
@@ -168,30 +169,33 @@ Example:
 
 Media files are the images that ascent will display for a particular game such as screenshots and box art.
 
-### Types (currently)
+#### Types (currently)
 
 - Screenshot (Gameplay): Image of the game during gameplay 
 - Screenshot (Title): Image of the game on its title/intro screen
-- Posters: [example](http://vignette1.wikia.nocookie.net/metroid/images/b/bb/Metroid_fusion.jpg/revision/latest?cb=20120706064821): Any images related to the game in general but not necessarily the 
+- Posters: [example](http://vignette1.wikia.nocookie.net/metroid/images/b/bb/Metroid_fusion.jpg/revision/latest?cb=20120706064821): Any images related to the game in general but not necessarily the software. This could be wallpaper, ads, banners, posters, etc.
 
-Example:
+#### Naming
 
-- \<ascent-dir\>\launchers
-	- \BizHawk
-    	- \1.11.6-win-x86
-    	- \0.9.22-win-x86
+You can place media files directly under the media directory, using the naming convention below:
 
-Some games work better (or worse) on particular launcher releases (im looking at you [dolphin](https://dolphin-emu.org))
+\<software-file-name\>.\<id\>.\<type\>.\<image-ext\>
 
-If you dont care/want to deal with release directories just name one folder **latest** and place launcher files inside.
+- **software-file-name**: Full, identical name of the matching software *including its file extention*
+- **id**: Optional. You can add any text here. This helps when you have more than one media file per game
+- **type**: Media type, should be one of the following:
+	- *scr*: In game screenshot
+	- *tit*: Title or intro screenshot
+    - *pos*: Poster style image
+- **image-ext**: The image's file extention. Suppoted formats: .png, .gif, .jpg & .bmp
 
-Example:
+For example, if your game is named:
 
-- \<ascent-dir\>\launchers
-	- \BizHawk
-    	- \latest
-        	- EmuHawk.exe
-            - ..
+**Super Mario World (U)[!].sfc**
+
+Then a screenshot can be added using the appropriate naming scheme:
+
+**Super Mario World (U)[!].sfc.001.scr.png**
         
 [Back to top](#table-of-contents)
 
@@ -214,7 +218,7 @@ For reference, check out the current templates:
 
 There is also an Angular service that makes it a bit easier to control Ascent:
 
-- [propellant](https://travis-ci.org/miniArray/kamek)
+- [propellant](https://travis-ci.org/miniArray/propellant)
 
 [Back to top](#table-of-contents)
 
