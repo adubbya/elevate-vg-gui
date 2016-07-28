@@ -75,7 +75,7 @@ Currently, Ascent adheres to a strict directory layout to simplify development d
 
 ## Supported Platforms
 
-- [Zelda Classic](http://www.zeldaclassic.com/)
+- [Zelda Classic](http://www.zeldaclassic.com)
 - [Steam](htp://steampowered.com)
 
 - Nintendo Entertainment System / Famicom / Famicom Disk System (NES/FDS)
