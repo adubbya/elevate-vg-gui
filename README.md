@@ -134,7 +134,7 @@ Launchers are the applications that let you run games that cant be executed dire
 
 Directly under the launchers directory should place launchers with the folowing folder naming scheme:
 
-<launcherName>\<release-os-arch>
+<launcherName>\\<release-os-arch>
 
 Example:
 
@@ -162,5 +162,34 @@ Example:
 
 1. naming convention
 2. launcher
-        
-#### License [MIT](LICENSE.md)
+
+[Back to top](#table-of-contents)
+
+
+## Releases Notes
+
+New releases notes are together with releases in GitHub at: https://github.com/miniArray/ascent/releases
+
+[Back to top](#table-of-contents)
+
+
+# Contributors
+
+* Simon W. Jackson ([@miniArray](https://twitter.com/miniArray))
+
+[Back to top](#table-of-contents)
+
+
+## License
+
+The MIT License
+
+Copyright (c) 2014 Martin Gontovnikas http://www.gon.to/
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[Back to top](#table-of-contents)
