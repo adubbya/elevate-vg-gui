@@ -10,10 +10,14 @@
 - [Supported OS](#supported-os)
 - [Supported Launchers](#supported-launchers)
 - [Install](#install)
-- Naming Schemes
-	- Software (games)
-	- Launchers (emulators, steam, etc)
-- FAQ
+- [Naming Schemes]
+	- [Software (games)](#software-games)
+	- [Launchers (emulators, steam, etc)](#launchers-emulators-steam-etc)
+- [FAQ](#fafq)
+- [Releases Notes](#releases-notes)
+- [Contributors](#contributors)
+- [License](#license)
+
 
 
 
@@ -27,7 +31,7 @@
 
 ## Supported Launchers
 
-* BizHawk: 
+* BizHawk
 * Zelda Classic
 * Steam
 
@@ -138,20 +142,22 @@ Directly under the launchers directory should place launchers with the folowing 
 
 Example:
 
-* \<ascent-dir\>\launchers
-	* \BizHawk
-    	* \1.11.6-win-x86
-    	* \0.9.22-win-x86
+- \<ascent-dir\>\launchers
+	- \BizHawk
+    	- \1.11.6-win-x86
+    	- \0.9.22-win-x86
 
 Some games work better (or worse) on particular launcher releases im looking at you [https://dolphin-emu.org/](dolphin)
 
-If you dont care/want to deal with release directories just name it **latest**
+If you dont care/want to deal with release directories just name one folder **latest** and place launcher files inside.
 
 Example:
 
-* \<ascent-dir\>\launchers
-	* \BizHawk
-    	* \latest
+- \<ascent-dir\>\launchers
+	- \BizHawk
+    	- \latest
+        	- EmuHawk.exe
+            - ..
         
 [Back to top](#table-of-contents)
         
@@ -173,7 +179,7 @@ New releases notes are together with releases in GitHub at: https://github.com/m
 [Back to top](#table-of-contents)
 
 
-# Contributors
+## Contributors
 
 * Simon W. Jackson ([@miniArray](https://twitter.com/miniArray))
 
