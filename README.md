@@ -1,6 +1,6 @@
 # Ascent
 
-**Clone and run for a quick way to see an Electron in action.**
+> A themable game launcher for PC
 
 This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
 
@@ -8,6 +8,12 @@ This is a minimal Electron application based on the [Quick Start Guide](http://e
 
 - [Install](#install)
 - [Supported Launchers][#supported-launchers]
+- Naming Schemes
+	- Software (games)
+	- Launchers (emulators, steam, etc)
+- FAQ
+
+
 
 ## Supported Launchers
 
@@ -104,5 +110,13 @@ Example:
 * ascent-dir\launchers
 	* \BizHawk
     	* \latest
+        
+        
+## FAQ
+
+### My games/screenshots arent showing up after scan
+
+1. naming convention
+2. launcher
         
 #### License [MIT](LICENSE.md)
