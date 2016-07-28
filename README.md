@@ -55,7 +55,7 @@ Currently, Ascent adheres to a strict directory layout to simplify development d
 
 > Future releases will be less strict with softwre location
 
-The software directory contains subfolders with the appropriate is where you can place your game files. 
+The software directory contains subfolders with the appropriate platform name.
 
 * <root>\software
 	* atari-2600
