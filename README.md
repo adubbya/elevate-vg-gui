@@ -78,8 +78,8 @@ Currently, Ascent adheres to a strict directory layout to simplify development d
 - [Zelda Classic](http://www.zeldaclassic.com)
 - [Steam](htp://steampowered.com)
 
-- Nintendo Entertainment System / Famicom / Famicom Disk System (NES/FDS)
-- Super Nintendo (SNES)
+- Nintendo Entertainment System / Famicom / Famicom Disk System
+- Super Nintendo
 - Nintendo 64
 - Game Boy, Game Boy Color, and Super Game Boy
 - Game Boy Advance
@@ -134,7 +134,7 @@ Launchers are the applications that let you run games that cant be executed dire
 
 > BizHawk launcher is downloaded and installed during setup
 
-[List of supported launchers](#)
+[List of supported launchers](#supported-launchers)
 
 Directly under the launchers directory should place launchers with the folowing folder naming scheme:
 
@@ -199,11 +199,6 @@ Then a screenshot can be added using the appropriate naming scheme:
 
         
 ## FAQ
-
-### My games/screenshots arent showing up after scan
-
-1. naming convention
-2. launcher
 
 ### Can I make a theme for Ascent?
 
