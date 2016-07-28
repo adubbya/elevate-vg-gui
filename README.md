@@ -149,7 +149,7 @@ Example:
     	- \1.11.6-win-x86
     	- \0.9.22-win-x86
 
-Some games work better (or worse) on particular launcher releases im looking at you [https://dolphin-emu.org/](dolphin)
+Some games work better (or worse) on particular launcher releases (im looking at you [dolphin](https://dolphin-emu.org))
 
 If you dont care/want to deal with release directories just name one folder **latest** and place launcher files inside.
 
