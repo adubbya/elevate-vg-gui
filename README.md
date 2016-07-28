@@ -23,11 +23,15 @@
 - ~~OS X~~: (Possible support in a future release)
 - ~~Linux~~: (Possible support in a future release)
 
+[Back to top](#table-of-contents)
+
 ## Supported Launchers
 
 * BizHawk: 
 * Zelda Classic
 * Steam
+
+[Back to top](#table-of-contents)
 
 ## Supported Platforms
 
@@ -49,6 +53,8 @@
 - Wonderswan and Wonderswan Color
 - Apple II
 
+[Back to top](#table-of-contents)
+
 ## Install
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
@@ -62,6 +68,8 @@ cd ascent
 npm install
 ```
 
+[Back to top](#table-of-contents)
+
 ## Setup 
 
 You will need to set a root folder where Ascent will look for **games**, **launchers**, **images**, etc. 
@@ -74,6 +82,8 @@ npm run setup
 ```
 
 Currently, Ascent adheres to a strict directory layout to simplify development during alpha stages. Expect this to be more flexible in the future.
+
+[Back to top](#table-of-contents)
 
 ### Ascent folder
 
@@ -110,6 +120,8 @@ Game software (roms, executables, etc) can be placed in its appropriate platform
     
 Game software can be named how ever you like, just make sure the appropriate extention is still there.
 
+[Back to top](#table-of-contents)
+
 ### Launchers (emulators, steam, etc)
 
 > Caveat: For now, Steam **must** be installed in the ascent-dir\software\steam-win directoy.
@@ -140,6 +152,8 @@ Example:
 * ascent-dir\launchers
 	* \BizHawk
     	* \latest
+        
+[Back to top](#table-of-contents)
         
         
 ## FAQ
