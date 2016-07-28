@@ -6,11 +6,10 @@
 
 ## Table of Contents
 
-
 - [Supported OS](#supported-os)
 - [Supported Launchers](#supported-launchers)
 - [Install](#install)
-- [Naming Schemes]
+- [Naming Schemes](#naming-schemes)
 	- [Software (games)](#software-games)
 	- [Launchers (emulators, steam, etc)](#launchers-emulators-steam-etc)
 - [FAQ](#faq)
@@ -160,9 +159,42 @@ Example:
     	- \latest
         	- EmuHawk.exe
             - ..
+            
+
+
+### Media (screenshots, etc)
+
+> Media scanning is an early stage of development
+
+Media files are the images that ascent will display for a particular game such as screenshots and box art.
+
+### Types (currently)
+
+- Screenshot (Gameplay): Image of the game during gameplay 
+- Screenshot (Title): Image of the game on its title/intro screen
+- Posters: [example](http://vignette1.wikia.nocookie.net/metroid/images/b/bb/Metroid_fusion.jpg/revision/latest?cb=20120706064821): Any images related to the game in general but not necessarily the 
+
+Example:
+
+- \<ascent-dir\>\launchers
+	- \BizHawk
+    	- \1.11.6-win-x86
+    	- \0.9.22-win-x86
+
+Some games work better (or worse) on particular launcher releases (im looking at you [dolphin](https://dolphin-emu.org))
+
+If you dont care/want to deal with release directories just name one folder **latest** and place launcher files inside.
+
+Example:
+
+- \<ascent-dir\>\launchers
+	- \BizHawk
+    	- \latest
+        	- EmuHawk.exe
+            - ..
         
 [Back to top](#table-of-contents)
-        
+
         
 ## FAQ
 
@@ -170,6 +202,19 @@ Example:
 
 1. naming convention
 2. launcher
+
+### Can I make a theme for Ascent?
+
+If you know HTML/CSS/JS, then yes. And if you know AngularJS, much of the work is already done for you.
+
+For reference, check out the current templates:
+
+- [gridd](https://travis-ci.org/miniArray/gridd)
+- [kamek](https://travis-ci.org/miniArray/kamek)
+
+There is also an Angular service that makes it a bit easier to control Ascent:
+
+- [propellant](https://travis-ci.org/miniArray/kamek)
 
 [Back to top](#table-of-contents)
 
