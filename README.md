@@ -4,9 +4,10 @@
 
 ## Table of Contents
 
+- [Install](#install)
+- [Setup](#setup)
 - [Supported OS](#supported-os)
 - [Supported Launchers](#supported-launchers)
-- [Install](#install)
 - [Naming Schemes](#naming-schemes)
 	- [Software (games)](#software-games)
 	- [Launchers (emulators, steam, etc)](#launchers-emulators-steam-etc)
@@ -17,7 +18,44 @@
 - [License](#license)
 
 
+## Install
 
+To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+git clone https://github.com/miniArray/ascent.git
+# Go into the repository
+cd ascent
+# Install dependencies and run the app
+npm install
+```
+
+[Back to top](#table-of-contents)
+
+## Setup 
+
+You will need to set a root folder where Ascent will look for **games**, **launchers**, **images**, etc. 
+For example: *C:\ascent*
+From your command line:
+
+```bash
+# Run the setup
+npm run setup
+```
+
+Currently, Ascent adheres to a strict directory layout to simplify development during alpha stages. Expect this to be more flexible in the future.
+
+### Ascent folder
+
+* \<ascent-dir\>: Ascent's root directory **ex: C:\ascent**
+	* \software: Game software (roms, exe, etc). See [software naming schemes](#)
+    * \utilities: A few utility applications to help with launching
+    * \media: Screenshots and other imagery. See [media naming schemes](#)
+    * \firmware: Platform BIOS and other firmware files.
+    * \launchers: Emulators and other software launchers. See [launcher naming schemes](#)
+
+[Back to top](#table-of-contents)
 
 ## Supported OS
 
@@ -60,45 +98,6 @@
 - Apple II
 
 [Back to top](#table-of-contents)
-
-## Install
-
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-git clone https://github.com/miniArray/ascent.git
-# Go into the repository
-cd ascent
-# Install dependencies and run the app
-npm install
-```
-
-[Back to top](#table-of-contents)
-
-## Setup 
-
-You will need to set a root folder where Ascent will look for **games**, **launchers**, **images**, etc. 
-For example: *C:\ascent*
-From your command line:
-
-```bash
-# Run the setup
-npm run setup
-```
-
-Currently, Ascent adheres to a strict directory layout to simplify development during alpha stages. Expect this to be more flexible in the future.
-
-[Back to top](#table-of-contents)
-
-### Ascent folder
-
-* \<ascent-dir\>: Ascent's root directory **ex: C:\ascent**
-	* \software: Game software (roms, exe, etc). See [software naming schemes](#)
-    * \utilities: A few utility applications to help with launching
-    * \media: Screenshots and other imagery. See [media naming schemes](#)
-    * \firmware: Platform BIOS and other firmware files.
-    * \launchers: Emulators and other software launchers. See [launcher naming schemes](#)
     
 ## Naming Schemes
 
