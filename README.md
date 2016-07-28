@@ -64,13 +64,37 @@ The software directory contains subfolders with the appropriate platform name (c
 	* steam-win
     * win
     * zelda-classic
-    * ...
+    * ..
     
 Game software (roms, executables, etc) can be placed in its appropriate platform directory.
 
 * ascent-dir\software\nintendo-entertainment-system-nes
 	* super mario bros 3.nes
 	* Kirby s Adventure (U) (PRG 1) [!].nes
-    * ...
+    * ..
+    
+Game software can be named how ever you like, just make sure the appropriate extention is still there.
+
+### Launchers (emulators, steam, etc)
+
+> Caveat: For now, Steam **must** be installed in the ascent-dir\software\steam-win directoy.
+
+Launchers are the applications that let you run games that cant be executed directly wether it be DRM or emulation.
+
+[List of supported launchers](#)
+
+Directly under the launchers directory should place launchers with the folowing folder naming scheme:
+
+<launcherName>\<release-os-arch>
+
+Example:
+
+* ascent-dir\launchers
+	* \BizHawk
+    	* \1.11.6-win-x86
+
+Some games work better (or worse) on particular launcher releases im looking at you [https://dolphin-emu.org/](dolphin)
+
+
         
 #### License [MIT](LICENSE.md)
