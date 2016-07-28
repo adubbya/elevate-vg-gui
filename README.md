@@ -14,19 +14,36 @@ A basic Electron application needs just these files:
 
 You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start).
 
-## To Use
+## Install
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/miniArray/ascent.git
 # Go into the repository
-cd electron-quick-start
+cd ascent
 # Install dependencies and run the app
-npm install && npm start
+npm install
 ```
 
-Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
+## Setup 
+
+You will need to set a root folder where Ascent will look for **games**, **launchers**, **images**, etc. 
+For example: *C:\ascent*
+From your command line:
+
+```bash
+# Run the setup
+npm run setup
+```
+
+Currently, Ascent adheres to a strict directory layout to simplify development during alpha stages. Expect this to be more flexible in the future.
+
+### Ascent folder
+
+* <ascent directory>
+	* \software: Game platform folders (created on init)
+    * \utilities: A few utility applications to help with launching
 
 #### License [MIT](LICENSE.md)
