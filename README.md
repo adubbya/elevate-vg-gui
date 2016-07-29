@@ -6,6 +6,7 @@
 
 - [Install](#install)
 - [Setup](#setup)
+- [Start](#start)
 - [Supported OS](#supported-os)
 - [Supported Launchers](#supported-launchers)
 - [Naming Schemes](#naming-schemes)
@@ -41,6 +42,20 @@ From your command line:
 # Run the setup
 npm run setup
 ```
+
+[Back to top](#table-of-contents)
+
+## Start 
+
+From your command line:
+
+```bash
+# Start Ascent
+npm start
+```
+
+[Back to top](#table-of-contents)
+
 
 ### Ascent folder
 
