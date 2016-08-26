@@ -1,9 +1,22 @@
-# Ascent
+# elevate-vg-gui
 
-> A themable game launcher for PC
+Game database & launcher. (core of [elevate-vg-gui-gui](https://github.com/miniArray/elevate-vg-gui-gui))
 
-## Table of Contents
+[![Travis](https://img.shields.io/travis/miniArray/elevate-vg-gui.svg)](https://travis-ci.org/miniArray/elevate-vg-gui) &nbsp;
+[![Codecov](https://img.shields.io/codecov/c/github/miniArray/elevate-vg-gui.svg)](https://codecov.io/github/miniArray/elevate-vg-gui) &nbsp;
+[![bitHound Overall Score](https://www.bithound.io/github/miniArray/elevate-vg-gui/badges/score.svg)](https://www.bithound.io/github/miniArray/elevate-vg-gui) &nbsp;
+[![npm](https://img.shields.io/npm/v/elevate-vg-gui.svg)](https://www.npmjs.com/package/elevate-vg-gui)
 
+[![bitHound Dependencies](https://www.bithound.io/github/miniArray/elevate-vg-gui/badges/dependencies.svg)](https://www.bithound.io/github/miniArray/elevate-vg-gui/master/dependencies/npm) &nbsp;
+[![miniArray](https://img.shields.io/badge/made%20by-miniArray-32bbee.svg)](http://miniArray.com) &nbsp;
+[![License](https://img.shields.io/npm/l/elevate-vg-gui.svg)](https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3))
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Contents
+
+- [Features](#features)
+      - [*Planned*](#planned)
 - [Install](#install)
 - [Setup](#setup)
 - [Start](#start)
@@ -19,15 +32,18 @@
 - [License](#license)
 
 
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Install
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
-git clone https://github.com/miniArray/ascent.git
+git clone https://github.com/miniArray/elevate.git
 # Go into the repository
-cd ascent
+cd elevate
 # Install dependencies and run the app
 npm install
 ```
@@ -50,20 +66,20 @@ npm run setup
 From your command line:
 
 ```bash
-# Start Ascent
+# Start elevate
 npm start
 ```
 
 [Back to top](#table-of-contents)
 
 
-### Ascent folder
+### elevate folder
 
-You will need to set a root folder where Ascent will look for [**games**](#software-games), [**launchers**](#launchers-emulators-steam-etc), [**images**](#media-screenshots-etc) etc. 
+You will need to set a root folder where elevate will look for [**games**](#software-games), [**launchers**](#launchers-emulators-steam-etc), [**images**](#media-screenshots-etc) etc. 
 
-Currently, Ascent adheres to a strict directory layout to simplify development during alpha stages. Expect this to be more flexible in the future.
+Currently, elevate adheres to a strict directory layout to simplify development during alpha stages. Expect this to be more flexible in the future.
 
-* \<ascent-dir\>: Ascent's root directory **ex: C:\ascent**
+* \<elevate-dir\>: elevate's root directory **ex: C:\elevate**
 	* \software: Game software (roms, exe, etc). See [software naming schemes](#)
     * \launchers: Emulators and other software launchers. See [launcher naming schemes](#)
     * \media: Screenshots and other imagery. See [media naming schemes](#)
@@ -121,7 +137,7 @@ Currently, Ascent adheres to a strict directory layout to simplify development d
 
 The software directory contains subfolders with the appropriate platform name (created during initial setup). *Games not placed in the appropriate platform subfolder will be ignored*
 
-* \<ascent-dir\>\software
+* \<elevate-dir\>\software
 	* atari-2600
     * flash
     * nintendo-entertainment-system-nes
@@ -132,7 +148,7 @@ The software directory contains subfolders with the appropriate platform name (c
     
 Game software (roms, executables, etc) can be placed in its appropriate platform directory.
 
-* \<ascent-dir\>\software\nintendo-entertainment-system-nes
+* \<elevate-dir\>\software\nintendo-entertainment-system-nes
 	* super mario bros 3.nes
 	* Kirby s Adventure (U) (PRG 1) [!].nes
     * ..
@@ -143,7 +159,7 @@ Game software can be named how ever you like, just make sure the appropriate ext
 
 ### Launchers (emulators, steam, etc)
 
-> Caveat: For now, Steam **must** be installed in the \<ascent-dir\>\software\steam-win directoy.
+> Caveat: For now, Steam **must** be installed in the \<elevate-dir\>\software\steam-win directoy.
 
 Launchers are the applications that let you run games that cant be executed directly wether it be DRM or emulation.
 
@@ -157,7 +173,7 @@ Directly under the launchers directory should place launchers with the folowing 
 
 Example:
 
-- \<ascent-dir\>\launchers
+- \<elevate-dir\>\launchers
 	- \BizHawk
     	- \1.11.6-win-x86
     	- \0.9.22-win-x86
@@ -168,7 +184,7 @@ If you dont care/want to deal with release directories just name one folder **la
 
 Example:
 
-- \<ascent-dir\>\launchers
+- \<elevate-dir\>\launchers
 	- \BizHawk
     	- \latest
         	- EmuHawk.exe
@@ -180,7 +196,7 @@ Example:
 
 > Media scanning is an early stage of development
 
-Media files are the images that ascent will display for a particular game such as screenshots and box art.
+Media files are the images that elevate will display for a particular game such as screenshots and box art.
 
 #### Types (currently)
 
@@ -212,10 +228,13 @@ Then a screenshot can be added using the appropriate naming scheme:
         
 [Back to top](#table-of-contents)
 
-        
+## Questions and issues
+
+The github issue tracker is for bug reports and feature requests. Anything else, such as questions for help in using the library, should be posted in [StackOverflow](http://stackoverflow.com) using the tag [elevate-vg-gui](http://stackoverflow.com/questions/tagged/elevate-vg-gui)
+
 ## FAQ
 
-### Can I make a theme for Ascent?
+### Can I make a theme for elevate?
 
 If you know HTML/CSS/JS, then yes. And if you know AngularJS, much of the work is already done for you.
 
@@ -224,37 +243,24 @@ For reference, check out the current templates:
 - [gridd](https://travis-ci.org/miniArray/gridd)
 - [kamek](https://travis-ci.org/miniArray/kamek)
 
-There is also an Angular service that makes it a bit easier to control Ascent:
+### Can you add `my feature` to elevate-vg-gui?
 
-- [propellant](https://travis-ci.org/miniArray/propellant)
+Feel free to add a request in the issue [issue tracker](https://github.com/miniArray/elevate-vg-gui/issues), or come chat with us on [Gitter](https://gitter.im/miniArray/elevate-vg-gui)
 
-[Back to top](#table-of-contents)
+[![Issues](https://img.shields.io/github/issues-raw/miniArray/elevate-vg-gui.svg)](https://github.com/miniArray/elevate-vg-gui/issues) &nbsp;
+[![Gitter](https://img.shields.io/gitter/room/miniArray/elevate-vg-gui.svg)](https://gitter.im/miniArray/elevate-vg-gui)
 
+## Contributing
 
-## Releases Notes
+- [Contributing](docs/contributing/index.md)
+  - [Versions: Release Names vs Version Numbers](docs/contributing/versions/index.md)
 
-New releases notes are together with releases in GitHub at: https://github.com/miniArray/ascent/releases
-
-[Back to top](#table-of-contents)
-
-
-## Contributors
-
-* Simon W. Jackson ([@miniArray](https://twitter.com/miniArray))
-
-[Back to top](#table-of-contents)
-
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard) &nbsp;
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) &nbsp;
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) &nbsp;
+[![bitHound Dev Dependencies](https://www.bithound.io/github/miniArray/elevate-vg-gui/badges/devDependencies.svg)](https://www.bithound.io/github/miniArray/elevate-vg-gui/master/dependencies/npm)
 
 ## License
 
-The MIT License
-
-Copyright (c) 2014 Martin Gontovnikas http://www.gon.to/
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-[Back to top](#table-of-contents)
+MIT License
+2015 © Simon W. Jackson and [contributors](https://github.com/miniArray/elevate-vg-gui/graphs/contributors)
