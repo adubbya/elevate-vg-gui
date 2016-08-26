@@ -1,6 +1,6 @@
 # elevate-vg-gui
 
-Game database & launcher.
+A themable game launcher for PC
 
 [![Travis](https://img.shields.io/travis/miniArray/elevate-vg-gui.svg)](https://travis-ci.org/miniArray/elevate-vg-gui) &nbsp;
 [![Codecov](https://img.shields.io/codecov/c/github/miniArray/elevate-vg-gui.svg)](https://codecov.io/github/miniArray/elevate-vg-gui) &nbsp;
